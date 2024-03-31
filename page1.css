@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+.body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf3c8e3b-3d47-474b-8d26-fbddddf63586/dg6n309-6133d487-9aca-40f1-9a66-e7c2efe47ccc.jpg/v1/fill/w_1215,h_658,q_70,strp/mountains_with_hidden_digital_city_iii_by_naiconprime_dg6n309-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUwNCIsInBhdGgiOiJcL2ZcL2NmM2M4ZTNiLTNkNDctNDc0Yi04ZDI2LWZiZGRkZGY2MzU4NlwvZGc2bjMwOS02MTMzZDQ4Ny05YWNhLTQwZjEtOWE2Ni1lN2MyZWZlNDdjY2MuanBnIiwid2lkdGgiOiI8PTI3NzYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.U0ZUu1KAX4OUB6yq2mjRp27x7bl-mGxvgn3IcvLaj58");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    
+}
+nav,.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+}
+nav{
+    position: fixed;
+}
+.cantainer{
+    width: 10vw;
+    height: 12vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 4vw;
+    height: 4vw;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    background-color: #00000000;
+    border: 4px solid whitesmoke;
+}
+.icon i{
+    color: #0b1623;
+    font-size: 3vh;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 35%;
+    justify-content: space-evenly;
+ 
+}
+.ul{
+    width: 23%;
+}
+.nav{
+    width: 80vw;
+}
+
+.page,main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+main,aside{
+
+    height: 100vh;
+    width: 75vw;
+}
+aside{
+    width: 24vw;
+    background-color: #0b1623;
+}
+a,.right{
+    height: 100vh;
+    width: 11vw;
+    background-color: transparent;
+    border-color: rgba(0, 255, 255, 0);
+    
+}
+a
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+a h3{
+    rotate: -90deg;
+}
+.right{
+    width: 65vw;
+}
+.page{
+    margin-top: 25vh;
+}
+ /* width */
+ .body::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  .body::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  /* Handle */
+ .body ::-webkit-scrollbar-thumb {
+    background: #88888800;
+  }
+  
+  /* Handle on hover */
+  .body::-webkit-scrollbar-thumb:hover {
+    background: #55555500;
+  }
+
+.top,.bottom{
+    height: 30vh;
+    width: 65vw;
+
+}
+.top{
+    height: 70vh;
+}
+.top h1,.top p{
+    height: 35vh;
+    width: 30vw;
+
+}
+.top h1{
+font-size: 9vw;
+line-height: 8vw;
+}
+.top p{
+    padding-top: 5vh;
+    padding-left: 1vh;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom ul{
+    flex-direction: column;
+    list-style: none;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+aside h6{
+    font-size: 9px;
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    font-size: 13px;
+}
+.image{
+    height: 26vh;
+    width: 22vw;
+    overflow: hidden;
+    border-radius: 1vh;
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
